@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    width: 100%;
+    border: 3px solid red;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+}
+.logo{
+    width: 5%;
+    display: flex;
+    
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+}
+.nav-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 28px 18px;
+    
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+.nav-list li a:hover{
+    color: grey;
+}
+
+.rightNav{
+    width: 10%;
+    text-align: right;
+}
+#search{
+    padding: 3px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 10px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../img/bg1.jpg');
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    max-width: 70%;
+    margin: auto;
+    
+}
+.firstHalf{
+    width: 80%;
+    justify-content: center;
+}
+.secondHalf{
+    width: 60%;
+    justify-content: center;
+}
+.secondHalf img{
+    margin: 0px 50px;
+    padding: 2px ;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.text-big{
+    font-size: 40px;
+    margin: 10px 0px;
+}
+.text-small{
+    margin: 5px 0px;
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.buttons{ 
+    text-align: center;
+}
+
+.btn{
+    border: 2px solid grey;
+    background-color:red;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+.box1{
+    display: flex;
+}
+.box-1{
+    margin: 100px 50px ;
+}
+.box-2{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.box-3{
+    margin-top: 100px ;
+    margin-left: 60px;
+}
+.box-4{
+    margin: 100px 60px;
+}
+.box1 h3{
+    color:white;
+    font-weight: bold;
+    margin: 10px auto;
+    text-align: center;
+}
+.Lecturesbg{
+    background: url(img/lecturebg.jpg) no-repeat center center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.section{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0px;
+    
+    
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+.paras{
+    padding: 0px 65px;
+}
+
+.sectionTag{
+    padding: 16px 0;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+.box2{
+    display: flex ;
+}
+.box2 h3{
+    color: black;
+    font-weight: bold;
+    /* border: 2px solid black;
+    border-radius: 5px;
+    background-color: black; */
+    margin: 10px auto;
+    text-align: center;
+}
+
+.Preparation h3{
+    
+    text-align: center;
+    margin: 30px 30px;
+    padding: 10px;
+    display: block;
+}
+.Preparation div{
+    text-align: center;
+    justify-content: center;
+}
+.box3{
+    display: flex;
+    margin: 40px auto;
+}
+
+.box4{
+    display: flex;
+    text-align: center;
+}
+.box4 button{
+    margin: 0px 40px;
+    font-size: 30px;
+}
+.Subjectsbg{
+    background: cornflowerblue;
+}
+.Subjectsbg img{
+    margin-bottom: 20px;
+}
+.books{
+    margin: 50px 0px;
+    padding: 0px;
+}
+.books h3{
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.books img{
+    margin: 50px 90px;
+    
+}
+#StateBoards{
+
+    background: url(img/stateboardsbg.jpg) no-repeat center center;
+    background-size: cover;
+}
+#StateBoards h3{
+    color: black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.Tutors div{
+    
+    justify-content: center;
+}
+.Tutors img{
+    width: 120px;
+    padding: 20px;
+    margin-top: 30px;
+}
+.Tutors p{
+    margin-top: 65px;
+    margin-right: 100px;
+    border: 2px solid grey;
+    height: 70px;
+    border-radius: 15px;
+    background-color: hotpink;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 30px;
+}
+.form input,textarea{
+    padding: 12px;
+    margin: 20px 0px;
+}
+.flex{
+    display: flex;
+}
+.btn-big{
+    border: 2px solid grey;
+    background-color:red;
+    border-radius: 8px;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 20px auto;
+}
+.Feedback{
+    background: rgb(195, 221, 230);
+}
+.last {
+    margin: 220px 200px;
+
+}
+.btn:hover
+{
+    color: wheat;
+}
+a:hover
+{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.board img{
+    margin: 50px 40px;
+}
+
